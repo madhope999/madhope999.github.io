@@ -15,14 +15,14 @@ body {
   }
 
 .masthead {
-    height: 15vw;
+    height: 20vw;
     width: 100vw;
     margin: auto;
     padding-top: 30px;
 }
 
 .title {
-    height: 10vw;
+    height: 15vw;
     width: 300px;
     background-color: white;
     margin: auto;
@@ -66,11 +66,10 @@ a {
 
 .image {
     height: 40vw;
-    width: 300px;
+    width: 400px;
     margin: auto;
-    margin-top: 50px;
-    margin-left: 30px;
-    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .paragraph {
@@ -119,6 +118,15 @@ a {
         background-color: white;
         margin: auto;
     }
+
+    .image {
+        height: 40vw;
+        width: 300px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    
 }
 
 /* Phone Styles */
@@ -143,5 +151,31 @@ a {
         width: 300px;
         background-color: white;
         margin: auto;
+    }
+
+    .image {
+        height: 40vw;
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .paragraph {
+        margin-top: 60px;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 10vw;
+        background-color:  #5d8c8c;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .socialmedia {
+        height: 50px;
+        width: 100px;
+        margin-left: 45vw;
+        background-color: white;
     }
 }

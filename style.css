@@ -11,7 +11,6 @@ body {
     font-family: acumin-pro, sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: xx-large;
   }
 
 .masthead {
@@ -78,7 +77,6 @@ a {
     width: 25vw;
     margin: auto;
     margin-top: 30px;
-    background-color: white;
 }
 
 .artworkimages {
@@ -90,25 +88,24 @@ a {
     height: 20vw;
     width: 20vw;
     margin: auto;
-    margin-top: 70px;
-    background-color: black;
-    background-image: url(Drawing2_stilllife.jpg);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .graphicdesign {
     height: 20vw;
     width: 15vw;
     margin: auto;
-    margin-top: 70px;
-    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .photograph {
     height: 20vw;
     width: 20vw;
     margin: auto;
-    margin-top: 70px;
-    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -138,12 +135,6 @@ a {
 
 /* Tablet Styles */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .body {
-        font-family: acumin-pro, sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: x-large;
-    }
 
     .masthead {
         height: 30vw;
@@ -171,8 +162,8 @@ a {
         height: 30vw;
         width: 25vw;
         margin: auto;
-        margin-top: 30px;
-        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
     
     .artworkimages {
@@ -184,24 +175,18 @@ a {
         height: 200px;
         width: 200px;
         margin: auto;
-        margin-top: 50px;
-        background-color: black;
     }
     
     .graphicdesign {
         height: 200px;
         width: 150px;
         margin: auto;
-        margin-top: 50px;
-        background-color: white;
     }
     
     .photograph {
         height: 200px;
         width: 200px;
         margin: auto;
-        margin-top: 50px;
-        background-color: black;
     
     }
     
@@ -233,13 +218,6 @@ a {
 /* Phone Styles */
 @media screen and (max-width: 767px) {
 
-    .body {
-        font-family: acumin-pro, sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: large;
-    }
-
     .masthead {
         height: 40vw;
         width: 100vw;
@@ -259,11 +237,14 @@ a {
     
     }
 
+    .image {
+        margin-bottom: 50px;
+    }
+
     .pencildrawing{
         height: 200px;
         width: 30vw;
         margin: auto;
-        margin-top: 50px;
         background-color: black;
     }
 
@@ -271,7 +252,6 @@ a {
         height: 200px;
         width: 25vw;
         margin: auto;
-        margin-top: 50px;
         background-color: white;
     }
 
@@ -279,8 +259,6 @@ a {
         height: 200px;
         width: 30vw;
         margin: auto;
-        margin-top: 50px;
-        background-color: black;
 
     }
 
