@@ -112,3 +112,52 @@ a {
     margin-left: 45vw;
     background-color: white;
 }
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .body {
+        font-family: acumin-pro, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: x-large;
+    }
+
+    .masthead {
+        height: 30vw;
+        width: 100vw;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .title {
+        height: 20vw;
+        width: 300px;
+        background-color: white;
+        margin: auto;
+    }
+}
+
+/* Phone Styles */
+@media screen and (max-width: 767px) {
+
+    .body {
+        font-family: acumin-pro, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: large;
+    }
+
+    .masthead {
+        height: 40vw;
+        width: 100vw;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .title {
+        height: 30vw;
+        width: 300px;
+        background-color: white;
+        margin: auto;
+    }
+}
