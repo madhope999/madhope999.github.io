@@ -11,14 +11,14 @@ body {
   }
 
 .masthead {
-    height: 10vw;
+    height: 15vw;
     width: 100vw;
     margin: auto;
     background-color: black;
 }
 
 .tabs {
-    height: 30px;
+    height: 50px;
     width: 100vw;
     background-color: white;
 }
@@ -89,10 +89,12 @@ body {
     height: 5vw;
     background-color:  #5d8c8c;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .socialmedia {
-    height: 20px;
+    height: 50px;
     width: 100px;
+    margin-left: 45vw;
     background-color: white;
 }

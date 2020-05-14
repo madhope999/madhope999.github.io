@@ -1,0 +1,79 @@
+html {
+    height: 100vh;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #f2e2dc;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.masthead {
+    height: 15vw;
+    width: 100vw;
+    margin: auto;
+    background-color: black;
+}
+
+.tabs {
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+}
+
+.border {
+    background-color: #F2B6BB;
+    min-height: 50vw;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.threadphotography {
+    background-color: white;
+    margin: auto;
+    height: 30vw;
+    width: 40vw;
+}
+
+.threadphotodescription {
+    background-color: white;
+    margin: auto;
+    height: 100px;
+    width: 30vw;
+    margin-top: 20px;
+}
+
+.scannerimage {
+    background-color: white;
+    margin: auto;
+    height: 50vw;
+    width: 40vw;
+    margin-top: 60px;
+}
+
+.scannerdescription {
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    height: 10vw;
+    width: 200px;
+}
+
+.footer {
+    width: 100vw;
+    height: 5vw;
+    background-color:  #5d8c8c;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.socialmedia {
+    height: 50px;
+    width: 100px;
+    margin-left: 45vw;
+    background-color: white;
+}

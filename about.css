@@ -1,0 +1,64 @@
+html {
+    height: 100vh;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f2e2dc;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.masthead {
+    height: 15vw;
+    width: 100vw;
+    margin: auto;
+    background-color: black;
+}
+
+.tabs {
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+}
+
+.aboutpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.image {
+    height: 40vw;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.paragraph {
+    height: 40vw;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5vw;
+    background-color:  #5d8c8c;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.socialmedia {
+    height: 50px;
+    width: 100px;
+    margin-left: 45vw;
+    background-color: white;
+}
