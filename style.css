@@ -8,20 +8,54 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 900;
   }
 
 .masthead {
     height: 15vw;
     width: 100vw;
     margin: auto;
-    background-color: black;
+    padding-top: 30px;
+}
+
+.title {
+    height: 10vw;
+    width: 300px;
+    background-color: white;
+    margin: auto;
 }
 
 .tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
     height: 50px;
     width: 100vw;
-    background-color: white;
+    color: #402523;
 }
+
+a {
+    color:  #402523;
+    text-decoration: none;
+}
+
+.abouttab {
+    margin: auto;
+ }
+
+ .drawingstab {
+    margin: auto;
+ }
+
+ .graphicdesigntab{
+     margin: auto;
+ }
+
+ .photographytab {
+     margin: auto;
+ }
 
 .welcomeinfo {
     display: grid;
