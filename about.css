@@ -19,12 +19,12 @@ body {
     width: 100vw;
     margin: auto;
     padding-top: 30px;
+    background-color:  #402523;
 }
 
 .title {
-    height: 15vw;
-    width: 300px;
-    background-color: white;
+    height: 30vw;
+    width: 40vw;
     margin: auto;
 }
 
@@ -78,7 +78,9 @@ a {
     margin: auto;
     margin-top: 50px;
     margin-right: 30px;
-    background-color: white;
+    color: #402523;
+    text-indent: 50px;
+    line-height: 1.5;
 }
 
 .footer {
@@ -93,29 +95,52 @@ a {
     height: 50px;
     width: 100px;
     margin-left: 45vw;
-    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #f2b6bb;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    background: #f2a2b1;
+    color: white;
+  }
 
 /* Tablet Styles */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .body {
-        font-family: acumin-pro, sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: x-large;
-    }
 
     .masthead {
-        height: 30vw;
+        height: 20vw;
         width: 100vw;
         margin: auto;
         padding-top: 30px;
     }
 
     .title {
-        height: 20vw;
-        width: 300px;
-        background-color: white;
+        height: 30vw;
+        width: 400px;
         margin: auto;
     }
 
@@ -132,24 +157,16 @@ a {
 /* Phone Styles */
 @media screen and (max-width: 767px) {
 
-    .body {
-        font-family: acumin-pro, sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: large;
-    }
-
     .masthead {
-        height: 40vw;
+        height: 25vw;
         width: 100vw;
         margin: auto;
         padding-top: 30px;
     }
 
     .title {
-        height: 30vw;
+        height: 35vw;
         width: 300px;
-        background-color: white;
         margin: auto;
     }
 
